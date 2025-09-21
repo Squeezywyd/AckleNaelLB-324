@@ -1,0 +1,22 @@
+repos:
+- repo: https://github.com/psf/black
+  rev: 23.7.0
+  hooks:
+    - id: black
+      language_version: python3
+
+- repo: https://github.com/pre-commit/mirrors-pylint
+  rev: v3.0.0
+  hooks:
+    - id: pylint
+      args: [--disable=C0114,C0115,C0116]  # ignoriert fehlende Docstrings
+
+- repo: local
+  hooks:
+    - id: pytest
+      name: pytest
+      entry: pytest
+      language: system
+      pass_filenames: false
+      always_run: true
+      stages: [push]
