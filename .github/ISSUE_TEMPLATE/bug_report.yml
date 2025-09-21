@@ -1,0 +1,27 @@
+name: "Bug report"
+description: "Problem melden"
+title: "[Bug] <kurzfassung>"
+labels: [bug]
+body:
+  - type: textarea
+    id: beschreibung
+    attributes:
+      label: Beschreibung
+      description: Was ist passiert?
+    validations:
+      required: true
+  - type: textarea
+    id: schritte
+    attributes:
+      label: Schritte zum Reproduzieren
+    validations:
+      required: true
+  - type: input
+    id: erwartung
+    attributes:
+      label: Erwartetes Verhalten
+  - type: textarea
+    id: environment
+    attributes:
+      label: Umgebung
+      description: OS, Browser/Version, App-Version

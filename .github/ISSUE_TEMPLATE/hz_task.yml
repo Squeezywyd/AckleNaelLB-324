@@ -1,0 +1,19 @@
+name: "HZ-Aufgabe"
+description: "Ticket zu einem Handlungsziel"
+title: "[HZx] <titel>"
+labels: [documentation]
+body:
+  - type: input
+    id: hz
+    attributes:
+      label: Handlungsziel
+      placeholder: HZ1 … HZ7
+  - type: textarea
+    id: aufgabe
+    attributes:
+      label: Aufgabe laut LB
+  - type: textarea
+    id: evidenz
+    attributes:
+      label: Evidenz/Belege
+      placeholder: Links zu PRs, Screenshots, Deployments

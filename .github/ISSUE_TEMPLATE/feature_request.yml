@@ -1,0 +1,22 @@
+name: "Feature request"
+description: "Neues Feature vorschlagen"
+title: "[Feat] <kurzfassung>"
+labels: [enhancement]
+body:
+  - type: textarea
+    id: kontext
+    attributes:
+      label: Kontext/Ziel
+      description: Warum ist das Feature wichtig?
+      placeholder: Als <Rolle> möchte ich <Ziel>, um <Nutzen>.
+    validations:
+      required: true
+  - type: textarea
+    id: loesung
+    attributes:
+      label: Lösungsidee
+  - type: textarea
+    id: kriterien
+    attributes:
+      label: Akzeptanzkriterien
+      placeholder: "- [ ] ..."
