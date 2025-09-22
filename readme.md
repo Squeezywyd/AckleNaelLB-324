@@ -74,4 +74,5 @@ Von der Versionsverwaltung über automatisierte Tests bis zum Deployment in Azur
 
 <img width="1920" height="1080" alt="Screenshot 2025-09-22 221406" src="https://github.com/user-attachments/assets/0c35bd91-6999-4312-93c9-2ce7d9515434" />
 <img width="1920" height="1080" alt="Screenshot 2025-09-22 094719" src="https://github.com/user-attachments/assets/6fc402ea-7bfb-409c-9cdc-1b0a65cc551a" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4f93f577-2a4b-421c-a477-e8cfef77d4b5" />
 <img width="1920" height="1080" alt="Screenshot 2025-09-22 231004" src="https://github.com/user-attachments/assets/24c400b9-f785-44c6-831f-884bc9cf4bc3" />
